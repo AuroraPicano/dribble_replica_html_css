@@ -5,7 +5,12 @@
 03 - logo
 04 - parte sinistra della nav
 05 - bottone iscrizione
-06 - parte destra della nav*/
+06 - parte destra della nav
+07 - caratteri nel body 
+08 - zona centrale
+09 - titolo
+10 - testo
+11 - scopri di più*/
 
 /* 00 */
 * {
@@ -74,4 +79,61 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tasto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasto-cta {
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: pink;
+    cursor: pointer;
+    padding: 0 24px;
+}
+ /* 07 */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* 08 */
+.centro {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background-color: #f8f7f4;
+    padding-top: 80px;
+}
+
+/* 09 */
+.titolo {
+    font-size: 25px;
+    padding: 40px 21px;
+    text-align: center;
+}
+
+/* 10 */
+.testo {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 11 */
+.tasto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasto-cta2 {
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 8px 24px;
+    margin-top: 32px;
 }
